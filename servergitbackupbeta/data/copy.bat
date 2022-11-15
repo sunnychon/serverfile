@@ -13,7 +13,7 @@ title mc COPYER:1.1:copying files...
 cd..
 for /f %%i in (name.txt)  do (
 set serverresp=%%i)
-copy server %serverresp%
+copy world/*.* %serverresp%
 title mc COPYER:1.1:copying files...ok
 dir %serverresp%
 timeout 3
